@@ -9,7 +9,8 @@ Transfer learning is a technique that shortcuts much of this by taking a piece o
 So with a given pretrained model, which has been trained by the images from images.net, we retrain the model and give out the correct answer of images classification. The time we use to retrain is shorter than train a new model relatively. And the accuracy is quite high, upto 80 to 90 percent.
 
 ## Inplementation of program
-Put```javascript retrain.py``` and ```javascript test.py``` into your working directory. Then create a new folder named ```javascript training_images``` and put your training dataset(images) into this folder. Under this folder you need to creat two folder with the class of images respectively. Next, you need to create a new folder in the working directory named```javascript test_images``` and put your test dataset (images) into this folder, images in this folder should contain images from both class, and should put them togather instead of seperating them as training set.
+Put```javascript
+retrain.py``` and ```javascript test.py``` into your working directory. Then create a new folder named ```javascript training_images``` and put your training dataset(images) into this folder. Under this folder you need to creat two folder with the class of images respectively. Next, you need to create a new folder in the working directory named```javascript test_images``` and put your test dataset (images) into this folder, images in this folder should contain images from both class, and should put them togather instead of seperating them as training set.
 
 Then you can run the ```javascript test.py``` first. After successfully running this program, you have finishing building the model. Next, you can test your model by running  ```javascript test.py```, and the program will show you the tag of images in test set to validate this model, and you can see the result there.
 
