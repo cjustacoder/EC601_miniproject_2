@@ -9,12 +9,11 @@ Transfer learning is a technique that shortcuts much of this by taking a piece o
 So with a given pretrained model, which has been trained by the images from images.net, we retrain the model and give out the correct answer of images classification. The time we use to retrain is shorter than train a new model relatively. And the accuracy is quite high, upto 80 to 90 percent.
 
 ## Inplementation of program
-Put```javascript
-retrain.py``` and ```javascript test.py``` into your working directory. Then create a new folder named ```javascript training_images``` and put your training dataset(images) into this folder. Under this folder you need to creat two folder with the class of images respectively. Next, you need to create a new folder in the working directory named```javascript test_images``` and put your test dataset (images) into this folder, images in this folder should contain images from both class, and should put them togather instead of seperating them as training set.
+Put```retrain.py``` and ```test.py``` into your working directory. Then create a new folder named ```training_images``` and put your training dataset(images) into this folder. Under this folder you need to creat two folder with the class of images respectively. Next, you need to create a new folder in the working directory named```javascript test_images``` and put your test dataset (images) into this folder, images in this folder should contain images from both class, and should put them togather instead of seperating them as training set.
 
-Then you can run the ```javascript test.py``` first. After successfully running this program, you have finishing building the model. Next, you can test your model by running  ```javascript test.py```, and the program will show you the tag of images in test set to validate this model, and you can see the result there.
+Then you can run the ```test.py``` first. After successfully running this program, you have finishing building the model. Next, you can test your model by running  ```test.py```, and the program will show you the tag of images in test set to validate this model, and you can see the result there.
 
-P.S. You can test the program with the given dataset in the folder ```javascript pretrained_dataset```
+P.S. You can test the program with the given dataset in the folder ```pretrained_dataset```
 
 
 # CNN model
@@ -27,8 +26,8 @@ After buliding the model, we need to compile it. To prevent overfitting, we also
 Then we will fit data into our model, since this model is new with no experience as the first model mentioned above, we need to iterate the training process for more than once. In this example, we take 25 as an example.
 
 ## Inplementation of program
-Put ```javascript cnn.py``` into your working directory, then create a folder named ```javascript dataset``` to contain your dataset to train and test the model. Then you can go into the dataset folder, and create two folder named ```javascript training_set``` and ```javascript test_set``` to contain your training set and test set respectively. In both folder, you need to create different folder for images from each class, and tag their class as the name of folder.
+Put ```cnn.py``` into your working directory, then create a folder named ```dataset``` to contain your dataset to train and test the model. Then you can go into the dataset folder, and create two folder named ```training_set``` and ```test_set``` to contain your training set and test set respectively. In both folder, you need to create different folder for images from each class, and tag their class as the name of folder.
 
-Then you can run ```javascript cnn.py``` to build and test the model. Since this is an brand new model with no experience, so it will take a very long time to train this model.
+Then you can run ```cnn.py``` to build and test the model. Since this is an brand new model with no experience, so it will take a very long time to train this model.
 
-P.S. You can test the program with the given dataset in the folder ```javascript cnn_dataset```
+P.S. You can test the program with the given dataset in the folder ```cnn_dataset```
