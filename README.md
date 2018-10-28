@@ -31,3 +31,9 @@ Put ```cnn.py``` into your working directory, then create a folder named ```data
 Then you can run ```cnn.py``` to build and test the model. Since this is an brand new model with no experience, so it will take a very long time to train this model.
 
 P.S. You can test the program with the given dataset in the folder ```cnn_dataset```
+
+Dataset link
+===================
+pretrained model dataset: https://drive.google.com/file/d/1-ecrKbMvJeDC9lk9QqEZjIX5EO_MPVar/view?usp=sharing
+
+cnn model dataset: https://drive.google.com/file/d/1hfysE__1bqxRAhPEs9WF8ZgRzq8G8JYx/view?usp=sharing
